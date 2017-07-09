@@ -4,7 +4,7 @@
 (def fizzbuzz
   (fn [num]
     (cond
-      (and (= (mod num 5) 0) (= (mod num 3) 0)) "Fizzbuzz"
+      (= (mod num 15) 0) "Fizzbuzz"
       (= (mod num 5) 0) "buzz"
       (= (mod num 3) 0) "fizz"
       :else num)))
