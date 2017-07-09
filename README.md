@@ -1,6 +1,6 @@
 # Clojure Fizzbuzz
 
-An implementation of fizzbuzz in Clojure
+An implementation of fizzbuzz in Clojure.
 
 ## Installation
 
